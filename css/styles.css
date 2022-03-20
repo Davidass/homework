@@ -1,0 +1,24 @@
+body {
+  background: #fff;
+  font-family: sans-serif;
+}
+.wrapper {
+  background: #2c2;
+  width: 480px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+/* Псевдоэлемент */
+h1:before {
+  content: "----";
+}
+/* Псевдоэлемент */
+h1:after {
+  content: "----";
+}
+/* Псевдокласс */
+h1:hover {
+  color: red;
+}
