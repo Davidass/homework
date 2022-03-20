@@ -1,5 +1,5 @@
  # Папки и файлы которые Git должен игнорировать
- .vscode
+ vscode
  .idea
  .DS_Store
  node_modules
